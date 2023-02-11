@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.travel-page {
+  width: 900px;
+  background-color: lightgrey;
+  margin-top: -1em;
+  border-radius: 0 0 10px 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F55A5A;
+  height: 80px;
+  gap: 10px;
+  border-radius: 10px 10px 0 0;
+}
+
+.nav-title {
+  color: white;
+  font-size: 30px;
+}
+.world-icon {
+  width:30px;
+  background-color: #F55A5A;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+  gap: 10px;
+  border-bottom: 1.5px solid #F5F5F5;
+}
+
+.location-container {
+  width: 600px;
+  color: #2B283A;
+}
+
+.location-logo {
+  width: 12px;
+}
+
+.location-country {
+  font-size: 18px;
+  padding-left: 4px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.location-url {
+  padding-left: 20px;
+  font-size: 18px;
+  text-decoration: underline;
+  color: #918E9B;
+}
+
+.location-image {
+  width: 190px;
+  object-fit: cover;
+  border-radius: 9px;
+  margin: 20px;
+}
+
+.location-city {
+  font-size: 40px;
+  letter-spacing: 1px;
+  margin-top: 0;
+  font-weight: 700;
+  line-height: 50px;
+}
+
+.location-dates {
+  font-size: 18px;
+}
+
+.location-info {
+  font-size: 18px;
+}
